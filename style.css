@@ -1,0 +1,63 @@
+a {
+    text-decoration: none;
+}
+
+.navigation__link{
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.title{
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+.title2{
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.paragraph{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987
+}
+
+
+.card-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card {
+    flex: 1;
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .card a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .card p {
+    margin-top: 10px; /* Расстояние между текстовой ссылкой и описанием */
+    font-size: 14px;
+    color: #666;
+  } 
